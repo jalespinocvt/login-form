@@ -1,0 +1,30 @@
+/* Styling for Login Box */
+.login-box {
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 2px solid #2e4053;
+  border-radius: 10px;
+  background-color: #f4f6f7;
+  font-family: Arial, sans-serif;
+}
+
+.login-box h2 {
+  text-align: center;
+  color: #1a5276;
+}
+
+.login-box input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  background-color: #1a5276;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
