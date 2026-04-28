@@ -13,6 +13,51 @@
     </form>
   </div>
 
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+  <style>
+/* Styling for Login Box */
+.login-box {
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 2px solid #2e4053;
+  border-radius: 10px;
+  background-color: #f4f6f7;
+  font-family: Arial, sans-serif;
+}
+
+.login-box h2 {
+  text-align: center;
+  color: #1a5276;
+}
+
+.login-box input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  background-color: #1a5276;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+  </style>
+  
+  <script>
+  // Function: Simple login validation demo
+  function login() {
+    const user = document.getElementById("username").value;
+    const pass = document.getElementById("password").value;
+    console.log("Username:", user);
+    console.log("Password:", pass);
+    if (user && pass) {
+      alert("Login successful for user: " + user);
+    } else {
+      alert("Please enter both username and password.");
+    }
+  }
+  </script>
 </body>
